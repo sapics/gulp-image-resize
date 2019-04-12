@@ -95,9 +95,7 @@ module.exports = function imageResizer(_options) {
             .setFormat(options.format);
         }
 
-        if (options.quality !== 1) {
-          gmfile = gmfile.quality(Math.floor(options.quality * 100));
-        }
+        gmfile = gmfile.quality(Math.floor(options.quality * 100));
 
 
         if (options.samplingFactor != null) {
