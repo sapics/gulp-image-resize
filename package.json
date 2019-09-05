@@ -1,5 +1,5 @@
 {
-  "name": "gulp-image-resize",
+  "name": "@sapics/gulp-image-resize",
   "description": "Resizing images made easy.",
   "version": "0.13.0",
   "homepage": "https://github.com/scalableminds/gulp-image-resize",
